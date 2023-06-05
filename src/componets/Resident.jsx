@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
-const resident = ({residentURL}) => {
+const Resident = ({residentURL}) => {
    const [residentInfo, setResidentInfo] = useState(null)
 
    const statusStyles = {
@@ -40,4 +40,4 @@ const resident = ({residentURL}) => {
   )
 }
 
-export default resident
+export default Resident
