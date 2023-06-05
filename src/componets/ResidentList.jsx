@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Resident from './resident'
+import resident from './Resident'
 import { paginationLogic } from '../util/pagination'
 const FIRST_PAGE = 1
 
